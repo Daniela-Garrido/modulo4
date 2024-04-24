@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Pagina4">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imagenfondo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/imagen1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="24dp"
+        android:text="Registrate y empieza a transferir"
+        android:textAlignment="viewStart"
+        android:textColor="@color/claro"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="300dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/claro"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nombre4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre" />
+
+        <EditText
+            android:id="@+id/ingrese4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/ingNombre" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/claro" />
+
+        <TextView
+            android:id="@+id/apelli4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apellido" />
+
+        <EditText
+            android:id="@+id/ingreapell4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/ingApell" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/claro" />
+
+        <TextView
+            android:id="@+id/mail4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/ingrmail4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/ingemail"
+            android:inputType="textEmailAddress" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/claro" />
+
+        <TextView
+            android:id="@+id/contrase4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contra" />
+
+        <EditText
+            android:id="@+id/ingrcontra4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/ingcontra"
+            android:inputType="textPassword" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/claro" />
+
+        <TextView
+            android:id="@+id/reingr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recontra" />
+
+        <EditText
+            android:id="@+id/reingresa4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/ingcontra"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btncrea4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/crear"
+        app:layout_constraintBottom_toTopOf="@+id/btnpreg4"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/btnpreg4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tiene"
+        android:textColor="@color/medio"
+        android:theme="@style/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btncrea4"
+        app:layout_constraintStart_toStartOf="@+id/btncrea4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
