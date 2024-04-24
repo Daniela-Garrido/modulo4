@@ -35,9 +35,9 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="300dp"
-        android:layout_height="460dp"
+        android:layout_height="450dp"
         android:layout_marginTop="120dp"
-        android:background="@color/claro"
+        android:background="@android:drawable/divider_horizontal_bright"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,8 +61,8 @@
         <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
-            android:layout_height="15dp"
-            android:background="@color/claro" />
+            android:layout_height="10dp"
+            android:background="@android:drawable/divider_horizontal_bright" />
 
         <TextView
             android:id="@+id/apelli4"
@@ -82,7 +82,7 @@
             android:id="@+id/divider3"
             android:layout_width="match_parent"
             android:layout_height="10dp"
-            android:background="@color/claro" />
+            android:background="@android:drawable/divider_horizontal_bright" />
 
         <TextView
             android:id="@+id/mail4"
@@ -101,8 +101,8 @@
         <View
             android:id="@+id/divider4"
             android:layout_width="match_parent"
-            android:layout_height="15dp"
-            android:background="@color/claro" />
+            android:layout_height="10dp"
+            android:background="@android:drawable/divider_horizontal_bright" />
 
         <TextView
             android:id="@+id/contrase4"
@@ -121,8 +121,8 @@
         <View
             android:id="@+id/divider5"
             android:layout_width="match_parent"
-            android:layout_height="15dp"
-            android:background="@color/claro" />
+            android:layout_height="10dp"
+            android:background="@android:drawable/divider_horizontal_bright" />
 
         <TextView
             android:id="@+id/reingr4"

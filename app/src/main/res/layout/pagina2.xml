@@ -59,6 +59,7 @@
         android:text="@string/nombre_app"
         android:textColor="@color/claro"
         android:textSize="20sp"
+        android:fontFamily="@font/belleros"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

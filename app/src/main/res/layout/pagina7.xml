@@ -92,6 +92,8 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:background="@android:drawable/divider_horizontal_bright"
+        android:drawableLeft="@drawable/ic_action_iccircazulingflecc"
+        android:drawableTint="@color/claro"
         android:text="Mi Informacion"
         app:icon="@drawable/ic_action_iconcaraena"
         app:layout_constraintBottom_toTopOf="@+id/btntarjetas"
@@ -109,7 +111,7 @@
         app:icon="@drawable/ic_action_iconcaratar"
         app:layout_constraintBottom_toTopOf="@+id/btnOpciones"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btninfo" />
 

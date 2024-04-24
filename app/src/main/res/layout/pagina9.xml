@@ -61,7 +61,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cantidad a Tansferir"
+            android:text="  Cantidad a Tansferir"
             android:textColor="@color/claro" />
 
         <EditText
@@ -85,7 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:ems="10"
-            android:text="Agregar nota de la transferencia (opcional)"
+            android:text="  Agregar nota de la transferencia (opcional)"
             android:textColor="@color/claro" />
 
     </LinearLayout>
@@ -109,7 +109,7 @@
         android:layout_marginBottom="20dp"
         android:text="@string/ingresar"
         android:theme="@style/btn2"
-        app:icon="@drawable/ic_action_icon1"
+        app:icon="@drawable/ic_action_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
